@@ -1,0 +1,24 @@
+.padre {
+  border: 10px solid tomato;
+  display: flex;
+  /* el comportamiento por defecto es flex-direction: row*/
+  /* el comportamiento por defecto de justify-content es flex start*/
+  /* justify-content: flex-end; */
+  /* justify-content: space-around; */
+  /* justify-content: space-around; */
+  /* justify-content: flex-start; */
+  /* flex-wrap el comportamiento por defecto es nowrap*/
+  flex-wrap: wrap;
+
+}
+
+.hijo {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background: #5f68b6;
+  border: 5px dashed #2e2c2c;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
